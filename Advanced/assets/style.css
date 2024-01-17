@@ -1,0 +1,99 @@
+/* common class for all examples */
+.common{
+    background-color: #ddd;
+    padding: 30px;
+    margin: 30px;
+    border:5px solid #ec1717 ;
+}
+.title{
+    background-color:rgb(255, 187, 87);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+/* p1.html */
+.cssOutline{
+ outline: 50px groove #000;
+ outline-offset: 30px;
+}
+
+/*p3.html*/
+.cssOverflow>p{
+    text-align: justify;
+    line-height: 2;
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    overflow: auto;  
+}
+.cssOverflow>p:last-child{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*p4.html*/
+.cssWhiteSpace{
+    white-space:pre-wrap;
+}
+/*p5.html*/
+.cssUnits.h1{
+  margin:0.5in; /* inches -1in equal to 2.54cm*/
+  background-color: #c61313;
+
+}
+.cssUnits.h2{
+    padding: 3cm;  /*centimeters*/
+    background-color: #dd2828;
+}
+.cssUnits.h3{
+    word-spacing: 10mm/*millimeter*/;
+}
+.cssUnits.h4{
+    font-size: 18pt; /*points*/
+}
+.cssUnits.h5{
+    font-size: 1pc; /*picas*/
+}
+.cssUnits.h6{
+    font-size: 30px;
+}
+/*p6.html*/
+.cssVisibiltyDisplay .cssVisibilty{
+  /*  visibility: hidden; /*this will hides only the element*/
+}
+.cssVisibiltyDisplay .cssDisplay{
+    display: none; /*it will hides the element with that space*/
+}
+/*p7.html*/
+.cssWordwrap>p{
+padding: 30px;
+width: 300px;
+background-color: teal;
+word-break:break-all;
+}
+/*p8.html*/
+.cssResize{
+    resize: both;
+    overflow: auto;
+}
+/*p9.html*/
+.cssColumnCount{
+    line-height: 2;
+    text-align: justify;
+   /* column-count: 4; */
+    column-gap: 50px;
+    column-rule:2px solid #0e0d0d;
+    column-width: 300px;
+}
+.cssColumnCount h1{
+    column-span:all;
+}
+/*p10.html*/
+.cssOpacity>p{
+background-color: teal;
+color: #ddd;
+padding: 30px;
+opacity: 0.5; /*opacity is used to make the transparent element */
+}
